@@ -1,0 +1,89 @@
+# ─────────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# ─────────────────────────────────────────────
+# Virtual environments
+# ─────────────────────────────────────────────
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# ─────────────────────────────────────────────
+# Jupyter Notebooks — checkpoints only
+# ─────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ─────────────────────────────────────────────
+# Dataset — large raw image files (download separately)
+# ─────────────────────────────────────────────
+data/
+*.zip
+*.tar.gz
+*.tar
+*.gz
+
+# ─────────────────────────────────────────────
+# Model checkpoints — too large for GitHub (use Git LFS or Drive)
+# ─────────────────────────────────────────────
+models/*.pth
+models/*.pt
+models/*.ckpt
+models/*.h5
+src/models/
+
+# ─────────────────────────────────────────────
+# Scratch / development utilities — not for submission
+# ─────────────────────────────────────────────
+scratch/
+
+# ─────────────────────────────────────────────
+# Word temporary files
+# ─────────────────────────────────────────────
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.tmp
+~WRL*.tmp
+
+# ─────────────────────────────────────────────
+# Old / intermediate report versions (keep only condensed)
+# ─────────────────────────────────────────────
+reports/Automated_Cervical_Cancer_detection_report.pdf
+reports/Automated_Cervical_Cancer_detection_report_Ver2.pdf
+reports/presentation_outline.md
+reports/final_report.docx
+reports/final_report.md
+reports/final_report_condensed.docx
+reports/final_report_condensed.md
+
+# ─────────────────────────────────────────────
+# OS / editor files
+# ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ─────────────────────────────────────────────
+# Misc
+# ─────────────────────────────────────────────
+*.log
+*.out
+output/
